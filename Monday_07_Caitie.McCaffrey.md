@@ -2,6 +2,8 @@
 
 @caitie
 
+Her slides are at: https://github.com/CaitieM20/Monitorama2016
+
 * "When alerts are more often false than true, the on-call's sense of urgency
   in responding to alerts is diminished.... the simple burden of alerts
   desensitizes caregivers to alarms..."
