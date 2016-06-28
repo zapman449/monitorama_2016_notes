@@ -1,4 +1,4 @@
-# Monitoring is Dead. Long Live Monitoring.
+# Monitoring is Dead Long Live Monitoring
 
 CTO @ http://opsee.com
 
