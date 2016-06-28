@@ -32,6 +32,8 @@ contenders on each aspect of monitoring
 * Westrum organizational Culture Westrum, R (2004). A typology of organizational cultures.  Quality and safty in health care, 13 (suppl 2), ii22-ii27
 * Forsgren, N., J. Humble (2016). "The role of continuous delivery in IT and organizational Performance"
     * [KEY SURVEY QUESTIONS FOUND HERE](Mon03__How.Metrics.Shape.Your.Culture__by_Nicole.Forsgren.jpg)
+    * Scientifically valid survey questions to help get closer to
+      measuring health of your culture ***
 * What can I do?  Read: _Data_Driven_ DJ Patil and Hilary Mason
 
 * Give Metrics meaningful names
