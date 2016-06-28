@@ -28,7 +28,8 @@
           cause of latency
     * Make the case
         * By in is no joke.  If top leaders don't care, it won't happen
-    * PHOTO: HIERARCHY OF NEED
+    * [HIERARCHY OF DevOps NEED](./Tue08__Metrics.are.for.Chumps__by_James.Fryman.jpg)
+    *
     * Can't start until we understand the retention requirements
     * We don't run a SaaS
         * Especially prevalent with on-prem software
