@@ -92,4 +92,7 @@
     * match the monitoring system to where the company is at
     * User ed is key to scale these tools organizationally
     * Tools scale with number of engineers, not users of site. ###
-    
+
+QnA:
+* Blacklists?
+    * List in zookeeper updates all hosts.
