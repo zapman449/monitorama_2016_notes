@@ -1,5 +1,7 @@
 # Going for Brokerage: People Analytics at Redfin
 
+Slides: https://github.com/thesarahhagan/monitorama
+
 * I'm an experimental psychologist... so I don't know monitoring.
 * Hired to experiment on people... specifically employees...
 * Which is creepy.
