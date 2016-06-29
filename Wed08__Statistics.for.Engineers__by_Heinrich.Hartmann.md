@@ -2,6 +2,8 @@
 
 @heinrichhartman (n)
 
+Slides here: http://www.slideshare.net/HeinrichHartmann/statistics-for-engineers-63589022
+
 * A tale of API Monitoring
 1. Measure user experience
 2. Determine financial implications of service degradation
@@ -72,3 +74,5 @@
 
 NOTE: I need to find the slides from this.  Will be posted to twitter by
 handle up top
+
+NOTE: related talk: https://www.infoq.com/presentations/latency-pitfalls
