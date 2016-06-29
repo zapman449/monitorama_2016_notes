@@ -1,8 +1,10 @@
 # Building Twitter’s Next-Gen Alerting System
 
+@sortalongo @megankanne @justanguyen
+Slides: https://docs.google.com/presentation/d/1K4e7uB0wBzrlq5EctCvWEyok0gTOz-1Sh9Ya-o6NeRw/edit?usp=sharing
+
 * Twitter has a new alerting system
 * took 2 years to get here.
-* @sortalongo @megankanne @justanguyen
 * #talk-megan-justin-dan
 * Observability team's mission:
     * Scaleable
