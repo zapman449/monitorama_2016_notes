@@ -8,7 +8,7 @@
 ### What is monitoring about?
 
 * measuring business value
-* Problem dectection and analysis
+* Problem detection and analysis
 * "Ultimately business value is what the business values and that is that"
 * Possible values:
     * Customer happiness
@@ -19,7 +19,8 @@
 * Why isn't this solved?
 * everything keeps changing (interfaces, metrics, schema, scale, ephemerality)
     * and serverless...
-* Cost per node drops, revenue opportunity decreases, continuous disruption. Each generation drops the price by an order of magnitude
+* Cost per node drops, revenue opportunity decreases, continuous disruption.
+  Each generation drops the price by an order of magnitude
 * Tragic quadrant.  
 
 ### Tinkering
@@ -30,17 +31,20 @@
 
 ### Serverless
 * Lambda, Cloud Functions, Azure Functions (latter are beta)
-* Monitorless.
+* Monitorless?
 * Good for simple, single threaded code.  
 * Security model is whitelisting.
-* Doesn't live long enough to be exploited... Doesn't live long enough to be monitored (classically).
+* Doesn't live long enough to be exploited... Doesn't live long enough to be
+  monitored (classically).
 * Low traffic apps and super spiky apps are huge wins for serverless
-* Tool for ease of ues
+* Tool for ease of use
 * Must do multi-region
 * Debugging and testing are... interesting
 * Monitoring (end to end tracing?)
 * Using Lambda to monitor AWS
+
 ##### Challenges to running on-prem serverless:
+* IBM is selling a product for this... for real.
 * Scheduling and startup latency needs tackling
 * execution and monitoring overhead
 * how do you charge for this?

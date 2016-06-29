@@ -6,11 +6,12 @@ Her slides are at: https://github.com/CaitieM20/Monitorama2016
 
 * "When alerts are more often false than true, the on-call's sense of urgency
   in responding to alerts is diminished.... the simple burden of alerts
-  desensitizes caregivers to alarms..."
-* "When alerts are more often false than true, the nurses sense of urgency
-  in responding to alerts is diminished.... the simple burden of alerts
+  desensitizes the on-call to alerts..."
+* "When alarms are more often false than true, the nursing staff's sense of
+  urgency in responding to alarms is diminished.... the simple burden of alerts
   desensitizes caregivers to alarms..."
 * Nurses were alerts too frequently to heart failure... so they ignored it.
+* and people died.
 * This is a people problem, not tech problem.
 * Ignored alerts -> unreliable systems -> unhappy customers
 * unplanned work -> inability to complete planned work -> less time to
@@ -23,7 +24,7 @@ Her slides are at: https://github.com/CaitieM20/Monitorama2016
     * Only Crisis Alarms would emit audible alerts
     * Nursing staff required to tune false positive alerts.
     * _Novel Approach to Cardiac Alarm Management on Telemetry Units_  
-    * THIS DECREASED FATALITIES ###
+    * THIS DECREASED FATALITIES ***
 * Applied the above to Cockoo for Twitter.  50 pages per week previous.
 * Started with a full alert audit.  Took 2 weeks.
 * "Nothing to surface hidden assumptions like writing runbooks"
@@ -68,11 +69,12 @@ Her slides are at: https://github.com/CaitieM20/Monitorama2016
     * Do not alert on machine specific metrics.
         * GC Pauses on one machine are not pageable.
         * High CPU on one machine is not pageable.
-    * The tech lead or engineering manager should be on-call. ###
+    * The tech lead or engineering manager should be on-call. ***
     * Cultural change.
         * move away from rewarding fire-fighting.
         * Move to preventing fires
-    * The goal is ti build systems that can scale linearly with machines and sub-linearly with people.
+    * The goal is ti build systems that can scale linearly with machines and
+      sub-linearly with people.
 * Benefits of tackling alert fatigue:
     * More reliable systems
     * Less unplanned work

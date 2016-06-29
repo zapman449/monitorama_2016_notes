@@ -6,7 +6,7 @@
 * The old days sucked.  No good old days.
 * _The first fifteen lives of Harry August_ by Claire North
 * Rewind to 1999
-    * sysadmin in 99, with cd and lds
+    * sysadmin in 99, with cd and ls
     * `# chown -Rf bob:bob files /`
     * Phone ring as alerting mechanism.
     * Cold Fusion was advanced.
@@ -29,9 +29,9 @@
 * Devs need to own their dashboards.
 * "There's technical debt, then there's technical subprime mortgages with
   exploding ballon payments." @markimbriaco
-* If you're not embarrased, you're not devopsing hard enough.
+* If you're not embarrassed, you're not devopsing hard enough.
 * this tool choice matters not to your customer.  Barely matters to you.
 * Community matters, relationships matter.  Tech matters less.
-* You are (probably) not google.  Don't solve their problem.
+* You are (probably) not google.  Don't solve their problem. ***
 * Solve for your problems, today.
 * No excuse for having no metrics or telemetry.  Pick something and use it.

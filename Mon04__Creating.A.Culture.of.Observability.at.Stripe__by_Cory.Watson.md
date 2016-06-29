@@ -30,20 +30,21 @@
     * Engage discontent!  usually fine.  Sometimes you need whisky.
 * Identify Power Users
     * Find interested parties
-    * talk to them, give them what you need
+    * talk to them, give them what they need
     * Empower them to help others
     * watch them grow.
 * Value
     * What are you improving?
     * How can you measure it?
     * is this the best way?
-    * You have to think about this daily.  Success is hitting the real goal, not delivering something you're bent on delivering
+    * You have to think about this daily.  Success is hitting the real goal,
+      not delivering something you're bent on delivering
 * Control Theory and Observability.
-    * Reference -> Programer -> System/sensor(s) -> Work
-                        \----------------/
+    * Reference -> Programmer -> System/sensor(s) -> Work
+                        ^----------------/
 * Flat org work ethic:
     * Shave the preposterous line of yaks.
-    * Stigmergy - Disperate systems working together.
+    * Stigmergy - Disparate systems working together.
     * Strike when good opportunities arise (incidents, etc)
 * Advertise
     * Don't be afraid!
@@ -79,14 +80,15 @@
         * Some other teams? What is observability... why do I care? (rare)
           (Not on call)
         * Usage? Getting better.  
-        * All positive feedback from automation (avg 4.5 of 5 stars) (2.5% response rate to alert feedback)
+        * All positive feedback from automation (avg 4.5 of 5 stars) (2.5%
+          response rate to alert feedback)
     * Tools:
         * Dozens of OSS PRs, OSS StatsD library (scala)
         * vast improvement over old pipeline, no loss
-        * New styles, better nameing, more consistency
+        * New styles, better naming, more consistency
     * Adjustments
         * Embracing other tools (log analysis, error catching)
-        * Begging to work on strategic things( global timers, historgrams
+        * Begging to work on strategic things( global timers, histograms
           and sets)
         * Need to improve metrics on our own work (we got by easy for a while)
         * Writing new monitors is super hard.  Watch for things going to

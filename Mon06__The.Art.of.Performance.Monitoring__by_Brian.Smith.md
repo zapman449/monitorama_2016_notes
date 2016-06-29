@@ -47,5 +47,5 @@
     * Minimize necessary attention
     * Use high level alarms.
 * Q&A:
-    * Measure accuracy of alarms.  If 90% it's nusiance alert, figure out
-      why.     
+    * Measure accuracy of alarms.  If 90% it's nuisance alert, figure out
+      why.

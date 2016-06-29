@@ -7,16 +7,16 @@ Slides: https://github.com/thesarahhagan/monitorama
 * Which is creepy.
 * Trying to create a better environment so employees are happier.
 * Talking about How you should be monitoring just your website.
-* Redfin is a home broker/realitor.
+* Redfin is a home broker/realtor.
 * Monitoring our Hiring
 * 6 -> 600 agents in 8 years
 * Important to monitor agents and housing supply and sundry
 * median days on market for a house nationally is 40 days.
 * Only moving into a busy market.
 * Monitoring Red Fin's agents to hire in the right market, and track people
-  coming in to market, leaving market, filled positions, open recs, etc.
+  coming in to market, leaving market, filled positions, open reqs, etc.
 * When a market shrinks red fin can drop agents.
-* agents are biased in the broad market.  Only incented when house sells.
+* agents are biased in the broad market.  Only incented  when house sells.
 * Agents of Red Fin are FTEs.
 * Base salary (stipend), paid vacation, benefits, and MLS dues.
 * Bonuses based on satisfaction

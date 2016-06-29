@@ -15,6 +15,6 @@
 * https://github.com/kelseyhightower/app-healthz
 * Define a handler/endpoint where dev and ops collaborate to solve.
 * Put strong healthchecks on everything.  Require them, and you're shielded
-  from a bad deploy
+  from a bad deploy... Deploy will fail at canary stage.
 * Demo with multiple designed failure points.  Until the last one cleared, the
   app didn't show up in the load pool.
