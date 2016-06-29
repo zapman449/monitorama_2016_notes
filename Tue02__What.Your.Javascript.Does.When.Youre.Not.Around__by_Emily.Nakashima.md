@@ -2,6 +2,8 @@
 
 * Browser monitoring is a thing.
 * More logic moving to the browser is a problem for monitoring
+    * Just as backend folk got traction on monitoring backends... huge swaths
+      of code moved to the browser
 * Project Dashboard 2, based around ELK
 * Browser monitoring toolkit
     * Performance:
@@ -13,7 +15,7 @@
 * JS Exceptions
     * Some helpful, some really hard to parse
     * if it's our own code, easy to parse.
-    * 20-40% if youre lucky
+    * 20-40% if you're lucky
     * A gazillion weird cases left.
 * What's my JS doing? Its hanging out in a noisy room
     * Cant find module bind-all... analytics company pushed bad code.
@@ -21,7 +23,7 @@
 * It's wandered off someplace.
     * Google translate will proxy your page... including our JS code.
     * GreatFire helps do the same thing.
-        * don't validate hostname to see if oyu're in production.  
+        * don't validate hostname to see if you're in production.  
 * JS code doesn't show up.
     * Airports and bad wifi means the code doesn't arrive.
     * simulate at home/office.
@@ -43,4 +45,3 @@
 * Alert on broad spectrum alerts
 * front end timeouts increasing, but not backend.  FEDev needs to look.
 * "The monitoring team doesn't know what the JS does"
-* 

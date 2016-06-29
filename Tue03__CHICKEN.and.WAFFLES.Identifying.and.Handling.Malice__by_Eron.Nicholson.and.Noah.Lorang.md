@@ -6,9 +6,9 @@
     * Own servers
     * They love nagios
 * First rule of DDoS club is you don't talk about getting attacked
-* 3/24/2014, quiet morning.  Start of DDoS
+* 3/24/2014, quiet morning.  Start of DDoS. Wanted a ransom of $1100
 * All primary links at max bandwidth.
-* Small attack: mesured around 80gbits/sec.
+* Small attack: measured around 80 gbits/sec.
 * Volumetric
 * DNS Reflection, NTP Reflection, Syn floods, ICMP Floods
 * Netflow allowed us to see what hit.
@@ -27,11 +27,11 @@
         * etc.
     * Evaluated a handful of commercial hardware appliances.
     * Frustrated with perf, avail and weird SSL issues
-    * "Supposed to fail-open"
+    * "Supposed to fail-open"... didn't happen.
     * No measurable protection.
 * What do you actually want in a defense system?
     * Protection against app level attacks
-    * Allow our actual users to keep using the application uninterupted.
+    * Allow our actual users to keep using the application uninterrupted.
     * Take advantages of all the data we have available, we know what normal
       traffic looks like.  We have auth'ed users.
     * Transparent in what gets blocked & why
@@ -43,9 +43,10 @@
     * Simple classification problem. Add ML, and you get a huristic.
     * Not so simple.
     * found known bad behaviors.
-        * We don't run PHP, or wordpress.  
+        * We don't run PHP, or wordpress.
         * Repeated failled logins
         * Lots of ../../..
+        * Block all this crazy.
     * Request history gives us a good idea of whether someone is norma, broken
       or malicious
         * normal IP/users show normal behavior, so more likely broken rather
@@ -55,18 +56,24 @@
     * We've caught more than 6,000 IPs that failed to exercise the slightest
       amount of creativity when scanning.
     * Every incoming request is scored and a per-IP aggregate score is
-      calculated.  20x is work something, 40x and 50x or slow will loose points
-    * Exponentially weighted moving avergage of your request scores over a time
+      calculated.  Http codes:
+        * 20x is work something.  Gain points
+        * 40x and 50x will loose points
+        * slow will loose points
+    * Exponentially weighted moving average of your request scores over a time
         * Scores from 1 to infinite
         * 1.0: all requests fine
         * threshold of danger
         * threshold of block
     * False positives are real.  Need to be able to unblock.
         * Unblocks are <1%
-    * Scaning for blockable actions and scoring request happens in near real-time using request byproducts.
+        * Support can unblock an IP
+        * Email form sent to support includes IP to unblock
+        * takes a few minutes to unblock
+    * Scaning for block-able actions and scoring request happens in near real-time using request byproducts.
         * Sent to kafka, and netflow, and logs, and sundry.
         * Analysis pulls from kafka
-* Monitoring for volumetric attacks is relatively striaghtforward.
+* Monitoring for volumetric attacks is relatively straightforward.
 * Chicken provides to waffles:
     * A list of blocked
     * a list of trusted
@@ -88,13 +95,13 @@
     * Move to routers.
         * Block, bandwidth limits
         * API, auto-blocks
-        * scale no problme
+        * scale no problem
         * IP block
         * Cx terrible
     * WAFLES:
         * trust, block, challenge, rate limit
         * API auto blocks
-        * Scale horiz
+        * Scale horizontally
         * IP, user-agent, path
         * Friendly error message
 * No waffles:
@@ -103,7 +110,7 @@
     * Proxy mode waffles:
         * all traffic to waffles, and trust goes in.
         * Challenge unknown/untrusted.
-    * WAFFLES lives on their own network, and traffic via BGP
+    * WAFFLES lives on its own network, and traffic via BGP
     * Limited access to PROD
     * BGP Flowspecs allow us to send specific flows of traffic to WAFFLES in
       real time.
@@ -119,5 +126,5 @@
     2. Good data and insight into who your users are is essential to smart
        and targeted mitigation
     3. Most commercial appliances are complete black boxes.
-    4. You cna build on the hsoulders of open-source giants
+    4. You can build on the shoulders of open-source giants
     5. Sometimes you just need a ton of bandwidth.

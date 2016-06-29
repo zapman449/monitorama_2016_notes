@@ -1,10 +1,10 @@
-# Fake it Til You Make It
+# Fake it til You Make It
 
 * Environment
     * several shippers -> one collector -> Elastic Search
-* How to clone... Can you?
+* How to clone and scale... Can you?
 * Start with onions
-* Started with 7 days of logs
+* Started with 7 days of logs, and analyze
 * By server dominates all traffic, 96% at the controller.
 * Swift generates 60% of the traffic
 * Date histogram data on message rate:
@@ -25,13 +25,14 @@
         * sets timestamps sanely, rather than process start time
     * Need better control of message contents.
     * variable message sizes didn't work
+    * :-( Hecka is discontinued
 * Findings:
     * Tactical
         * System sustained 4000 x 1k messages/sec
         * Collector or ES failed.
         * No messages dropped.
     * Strategic
-        * Load tool is underqualified
+        * Load tool is under-qualified
             * Wants to look at Adrian's Spigo
         * monitoring tool resolution is important for interpretation
         * I should prepare for presentations further in advance...
@@ -39,7 +40,7 @@
     * Intuition 4MB/sec
     * 50messages/sec is:
         * 99.9 percentile
-        * 265 controlers
+        * 265 controllers
         * 1060 compute
         * 1:100 ratio
     * The real answer is "The model says X is safe.  But may need to improve model"

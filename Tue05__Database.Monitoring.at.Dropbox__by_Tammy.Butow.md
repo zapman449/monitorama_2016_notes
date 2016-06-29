@@ -3,13 +3,13 @@
 @tammybutow
 
 * Internet is safe compared to going outside... in Australia (maybe)
-* Yahoo is cool, until about 2000... in australia
-* train tracks melted.
-* shoes melt
-* sunburn.
-* So moved to USA.
+    * Yahoo is cool, until about 2000... in Australia
+    * train tracks melted.
+    * shoes melt
+    * sunburn.
+    * So moved to USA.
 * I like monitoring
-    * Achieving any goal requiress honest and regular monitoring of your progress
+    * Achieving any goal requires honest and regular monitoring of your progress
     * Apps:
         * Hopper
         * Cool ideas from health and travel
@@ -17,7 +17,7 @@
 * Scaling to exabytes and beyond
 * Monitoring
     * Start:
-        * Nagios, Thruk, Ganglia
+        * Nagios, Thurk (?), Ganglia
     * Vortex (home built)
     * Logging, we built droplog.
     * Why build our own?
@@ -25,7 +25,7 @@
         * Reliability
         * scaling the number of metrics/sec very fast
         * as we grew, new features fast.
-    * Vortex custome built TSDB with dashboarding
+    * Vortex customer built TSDB with dashboarding
     * Metric Metadata: Tagging for metrics
     * Databases team requested 'snooze button' from the host leve.
     * Monthra: third party metrics into Vortex
@@ -41,7 +41,7 @@
     * Service is running on an actual server.
         * Dashboards in team charter (which is public?)
         * DB Ops Bot
-        * Scout: Insite into pager duty data
+        * Scout: Insight into pager duty data
     * CPU memory, network, disk (IO and space)
     * Dashboards
     * Service metrics
