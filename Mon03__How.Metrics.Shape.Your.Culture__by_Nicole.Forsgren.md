@@ -6,8 +6,8 @@ Side Note: Big Panda offers a Monitoring-Scape.  Google for it for tool
 contenders on each aspect of monitoring
 
 * Definition of DevOps:
-    * CAMS: Culture Automation Measurement and Sharing ***
-* Measurement is culture ***
+    * CAMS: Culture Automation Measurement and Sharing ###
+* Measurement is culture ###
 * It's how we communicate across silo's boundaries.
 * Origin story for the AWS Recommendation Engine on Shopping cart.
     * Engineer recommended it. SVP said no Engineer did it anyway, pushed to prod
@@ -22,7 +22,7 @@ contenders on each aspect of monitoring
 * The goal is to MAKE MONEY
     * not to decrease waste, or improve productivity, or improve release timelines
 * That which is measured gets managed.  In business, you are what you measure.
-* IF you capture only one metic, you know what will be gamed. ***
+* IF you capture only one metic, you know what will be gamed. ###
     * Ticketing systems are high targets for this.  SLAs, Cycle time, etc.  
       Seen systems which will reply to a ticket and close it automagically
       because the customer won't notice (aka complain)
@@ -43,7 +43,7 @@ contenders on each aspect of monitoring
   organizational Performance"
     * [KEY SURVEY QUESTIONS FOUND HERE](Mon03__How.Metrics.Shape.Your.Culture__by_Nicole.Forsgren.jpg)
     * Scientifically valid survey questions to help get closer to
-      measuring health of your culture ***
+      measuring health of your culture ###
 * What can I do?  Read: _Data_Driven_ DJ Patil and Hilary Mason
 
 * Give Metrics meaningful names

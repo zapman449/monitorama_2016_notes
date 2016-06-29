@@ -24,7 +24,7 @@ Her slides are at: https://github.com/CaitieM20/Monitorama2016
     * Only Crisis Alarms would emit audible alerts
     * Nursing staff required to tune false positive alerts.
     * _Novel Approach to Cardiac Alarm Management on Telemetry Units_  
-    * THIS DECREASED FATALITIES ***
+    * THIS DECREASED FATALITIES ###
 * Applied the above to Cockoo for Twitter.  50 pages per week previous.
 * Started with a full alert audit.  Took 2 weeks.
 * "Nothing to surface hidden assumptions like writing runbooks"
@@ -69,7 +69,7 @@ Her slides are at: https://github.com/CaitieM20/Monitorama2016
     * Do not alert on machine specific metrics.
         * GC Pauses on one machine are not pageable.
         * High CPU on one machine is not pageable.
-    * The tech lead or engineering manager should be on-call. ***
+    * The tech lead or engineering manager should be on-call. ###
     * Cultural change.
         * move away from rewarding fire-fighting.
         * Move to preventing fires

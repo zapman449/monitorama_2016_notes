@@ -42,7 +42,7 @@ outputs of a system and its components over time.
   async network, a fault is impossible to detect.
 * Byzantine Generals Problem [2]
 * Big problem for us: respond to slowly or fail to respond [3][4]
-    * Failing to respond is a special case of responding too slowly. ***
+    * Failing to respond is a special case of responding too slowly. ###
 * What is required to determine if something is responding to slowly?  Service
   Level Objectives.
 * Better health checks.  

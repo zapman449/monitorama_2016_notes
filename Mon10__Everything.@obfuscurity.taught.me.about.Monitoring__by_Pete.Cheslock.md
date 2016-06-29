@@ -32,6 +32,6 @@
 * If you're not embarrassed, you're not devopsing hard enough.
 * this tool choice matters not to your customer.  Barely matters to you.
 * Community matters, relationships matter.  Tech matters less.
-* You are (probably) not google.  Don't solve their problem. ***
+* You are (probably) not google.  Don't solve their problem. ###
 * Solve for your problems, today.
 * No excuse for having no metrics or telemetry.  Pick something and use it.

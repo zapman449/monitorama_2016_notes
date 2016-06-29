@@ -26,7 +26,7 @@
   tools because of a fear of shell scripts, SSH, and for loops." - Mark Imbriaco
 * Think about the interface and the interactions... especially the human ones
 * Give some time to our human interactions... even a fraction of the time given
-  to API design ***
+  to API design ###
 * Think about the intent.  Think how you might want to interrogate a component
   of your system
 * Think about likely scenarios thing obvious and easy, and the unlikely possible.

@@ -100,7 +100,7 @@
                               App-aaS, mongo, db, etc)
                             * Take a Baseline measurement
                                 * Start with common benchmark
-                                * Agree on a common test ***
+                                * Agree on a common test ###
                                 * don't spend time bike-shedding here on ideal baseline
                                 * Throw a stick in the mud and start measuring
                                 * Changes can come via PDCA cycles
@@ -109,7 +109,7 @@
                                 * Mongodb is mongodb
                                 * Moved to wiredtiger
                                 * Got 3x improvement. (500 to 1500 out of 3500)
-                            * Accept that infrastructure will be the first question.  Deal with it. ***
+                            * Accept that infrastructure will be the first question.  Deal with it. ###
                             * Keep-alives not working properly.  
                                 * rewrite took 2 days.
                                 * Now at 11k RPS in a single component
