@@ -2,6 +2,8 @@
 
 by Brian Brazil
 
+slides: http://www.slideshare.net/brianbrazil/prometheus-monitorama-2016
+
 * Founder of Robust Perception, provider of Support for Prometheus
 * What is prometheus
     * A time series DB
