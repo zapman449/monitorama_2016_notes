@@ -58,4 +58,5 @@
     * More new tricks to discover
     * Nothing is 100% perfect out of the box
     * Focus on composability, pluggability, and customizability.
-    *
+
+Related talk: https://speakerdeck.com/kdaniels/leveling-up-monitoring-a-decade-of-automating-and-scaling-nagios
