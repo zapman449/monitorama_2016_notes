@@ -23,11 +23,11 @@
         * what are the conditions of the alert
         * some other metadata.
     * Supports email, slack, pagerduty, and whatever else you wish to route to
-* Site availability: Covered by volunteer on-call
+* Site availability: Covered by volunteer on-call ###
     * What?
     * SRE focused on everyone doing on-call effectively
     * Happened randomly
-    * Gong for site availabilty notices
+    * Gong for site availability notices
     * Every quarter or two, teach on-call volunteers
         * Deeper into monitoring and how to be effective on-call
         * how to communicate with Customer Service

@@ -4,6 +4,8 @@
 
 Slides here: http://www.slideshare.net/HeinrichHartmann/statistics-for-engineers-63589022
 
+You'll need the slides... this was fast and furious
+
 * A tale of API Monitoring
 1. Measure user experience
 2. Determine financial implications of service degradation
@@ -25,7 +27,7 @@ Slides here: http://www.slideshare.net/HeinrichHartmann/statistics-for-engineers
           drawn as well: ON PHONE
 * Log Analysis:
     * Method: Write to log file:
-        * tome of completeion
+        * tome of completion
         * request latency,
         * other metadata
     * Discussion:
@@ -47,7 +49,7 @@ Slides here: http://www.slideshare.net/HeinrichHartmann/statistics-for-engineers
     * Percentile are not unique?  Use the right number
     * Method:
     * Pro/con:
-        * Meaure requests by people
+        * Measure requests by people
         * cheap to collect and monitor and graph
         * Robust to outliers
         * Up front choice of percentiles needed
@@ -59,9 +61,9 @@ Slides here: http://www.slideshare.net/HeinrichHartmann/statistics-for-engineers
         * Store Percentiles for ALL AGGREGATION LEVELS separately
             * per node / rack / dc
             * per endpoint / service
-        * store percentials for all reporting periods you are interested in (eg
+        * store percentiles for all reporting periods you are interested in (eg
             per min / hour /day)
-        * store all percentiales you will ever be interested in e.g. 50, 75, 90,
+        * store all percentiles you will ever be interested in e.g. 50, 75, 90,
             99, 99.9
 * API Monitoring with Histograms
     * Storing histograms efficiently is easy.
@@ -69,10 +71,7 @@ Slides here: http://www.slideshare.net/HeinrichHartmann/statistics-for-engineers
 * The search for meaningful metrics
 * Users offended per minute
     * Just count pissed off users (requests take more than 5 seconds)
-    * Dont trust line graph( at least at large scale)
+    * Don't trust line graph( at least at large scale)
     * Strive for meaningful metrics
-
-NOTE: I need to find the slides from this.  Will be posted to twitter by
-handle up top
 
 NOTE: related talk: https://www.infoq.com/presentations/latency-pitfalls

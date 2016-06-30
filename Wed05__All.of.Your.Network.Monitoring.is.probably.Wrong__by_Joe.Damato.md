@@ -9,11 +9,11 @@ packagecloud.io
     * TOO MUCH STUFF to track.  Leads to high cognitive load
     * Humans have coping strategies
     * copy&paste config as coping strategy
-    * "Programs should get paid more & work less" forthcoming talk
+    * "Programers should get paid more & work less" forthcoming talk
     * Do you really understand every graph you're generating?
     * (probably not)
     * if you don't understand, why do you think you can monitor?
-    * (probably doens't matter though)
+    * (probably doesn't matter though)
     * note: complexity != bad.
     * fact of life.
     * cat games bring in firewalls, and vpn and micro payments, and TLS, etc.
@@ -26,8 +26,12 @@ packagecloud.io
     * List of things that don't exist
         * Free open source
         * The an singulartiy
-        * cla free chocolate covered bacon
+        * calorie free chocolate covered bacon
     * short version: we're effed.
+        * Digression into just how deeply broken and weird the linux kernel
+          network stack is on several significant vectors
+        * Then remarked that the *BSDs* were little better.
+        * Then remarked that the card data sheets are wrong too...
     * Monitoring something requires very deep understanding
     * otherwise you're not measuring what you think you're monitoring
     * resist the urge to solve with a quick bash script

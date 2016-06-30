@@ -25,7 +25,7 @@
                 * Performance alerts, recommended warning and critical
                   thresholds
                 * Autogenerates the nagios config.
-        2. MAking Alerts (marginally) less annoying
+        2. Making Alerts (marginally) less annoying
             * nagdash (OSS in github)
                 * Great, but all org, not just my team
             * nagios-herald https://github.com/etsy/nagios-herald

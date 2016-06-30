@@ -32,8 +32,8 @@ slides: http://www.slideshare.net/brianbrazil/prometheus-monitorama-2016
     * can alert on 25% of machines being down.
 * Efficient
     * Single server can handle 800k samples/sec
-    * New varibt encoding only uses 1.3 bytes/sample
-    * Node exporter produces 7000 time series, so even wht a 10s scrape
+    * New varibit encoding only uses 1.3 bytes/sample
+    * Node exporter produces 7000 time series, so even with a 10s scrape
       interval, a single prometheus could handle 10k machines
     * This efficiency means that the vast majority of users never need to worry
       about scaling
@@ -51,5 +51,5 @@ slides: http://www.slideshare.net/brianbrazil/prometheus-monitorama-2016
 * Opinionated
     * as a project, we recognize our limits
     * We try to avoid reinventing the wheel (eg grafana over promdash)
-    * We encourage good practices and uing the right tool for the job.  
+    * We encourage good practices and using the right tool for the job.  
     * Restarts on death. Don't fix it... use supervisor or daemontools or systemd

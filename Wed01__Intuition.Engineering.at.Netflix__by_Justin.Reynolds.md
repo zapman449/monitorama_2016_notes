@@ -14,7 +14,7 @@ By Justin from Netflix
 * third region: us-west-2, and user sharing between us-east-1
 * Now global cloud... all users from any region
 * On failover, need to scale up a region
-* A bit of an art.  Knock over healthy region if fail to quickly
+* A bit of an art.  Knock over healthy region if you failover to quickly
 * Complex system of many microservices
 * "Is the region ready for more traffic?"
     * Need to know now... we need to change now.
@@ -29,8 +29,8 @@ By Justin from Netflix
     * Visualization wins
     * Explore graph types.
     * "Can I move more traffic? yes or no".
-    * Y graph.  Center is source of RPS, east/west get more... eu-west doesn't
-      get as much
+    * Y shaped graph.  Center is source of RPS, east/west get more... eu-west
+      doesn't get as much
     * Some dots are yellow, some are red.
     * you can drill in to a region.
     * Shows all the microservices, and the traffic/ responses through them.

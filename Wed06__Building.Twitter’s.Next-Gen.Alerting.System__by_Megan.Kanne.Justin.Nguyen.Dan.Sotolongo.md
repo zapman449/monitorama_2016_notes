@@ -10,7 +10,7 @@ Slides: https://docs.google.com/presentation/d/1K4e7uB0wBzrlq5EctCvWEyok0gTOz-1S
     * Scaleable
     * Robust
     * realtime
-* Not respnsible for each teams monitoring, just the system they use.
+* Not responsible for each teams monitoring, just the system they use.
     * not the watchers on the wall
     * just the wall
 * Manhattan KV Store (never heard of it)
@@ -23,8 +23,8 @@ Slides: https://docs.google.com/presentation/d/1K4e7uB0wBzrlq5EctCvWEyok0gTOz-1S
         * easy to write, commit, upload new alerts
     * The bad:
         * simple config language
-        * large body of examples
-        * easy to write, commit, upload new alerts
+        * large body of (bad) examples
+        * easy to write, commit, upload new alerts... huge bit-rot
     * json-ish language.
     * Stapled on moustache for templating
     * Ownership of config was confusing.
@@ -35,7 +35,7 @@ Slides: https://docs.google.com/presentation/d/1K4e7uB0wBzrlq5EctCvWEyok0gTOz-1S
 * The new system:
     * Goals:
         * Improve config
-        * drop loss of visability
+        * drop loss of visibility
         * making alerts: simplicity
     * Combined alert and dashboarding.
         * Alerts are now a predicate on a dashboard.
