@@ -3,7 +3,7 @@
 
 @jfryman
 
-* Security practitioner scared to infrastructure
+* Security practitioner scared into infrastructure
 * Auth0 online identity
 * mission: to enable operators to sleep
 * Nashville, TN:
@@ -18,22 +18,22 @@
     * Potential customer wanted to assert a level of capacity
         * 3500 requests per sec
         * Existing max of measured at 500 request per sec
-            * Appliance offering handling 2-3x this volume at select clientes
+            * Appliance offering handling 2-3x this volume at select clients
             * Only two weeks to apply science
 * Steps:
     * Recon:
         * Auth0 tried to roll out a metrics pipeline previously
-        * Metrics implementation occured once in the past (librato)
+        * Metrics implementation occurred once in the past (librato)
         * Was ripped out because it was not well understood, thought to be
           cause of latency
     * Make the case
-        * By in is no joke.  If top leaders don't care, it won't happen
+        * By-in is no joke.  If top leaders don't care, it won't happen
     * [HIERARCHY OF DevOps NEED](./Tue08__Metrics.are.for.Chumps__by_James.Fryman.jpg)
-    *
     * Can't start until we understand the retention requirements
+        * Falacy
     * We don't run a SaaS
         * Especially prevalent with on-prem software
-        * Do not need to stor it yourself, make it available
+        * Do not need to store it yourself, make it available
         * what happens AFTER you ship the feature
         * We've made good decisions up to this point...
             * most developers have not seen a successful project - Dave Farley
@@ -56,17 +56,17 @@
               handle specific capacity
             * Attack!
         * Pick a tool-set
-            * Common pushbacks: Difficult to learn/ understand
-            * Too many moving parts, concernts
+            * Common push-backs: Difficult to learn/ understand
+            * Too many moving parts, concerns
             * Planning for unknown, sizing, etc
             * Doesn't even address app-level changes to codebase
             * In-house managed
-                * Too many columns (gatehrers, listeners, aggregators, presenters)
+                * Too many columns (gatherers, listeners, aggregators, presenters)
             * Use SaaS... get something.
             * Auth0 toolset:
                 * Datadog / homegrown
                 * Logging: Kinesis -> Kibana
-                * Excepiton handling Sentry
+                * Exception handling Sentry
             * Iterate.
             * PDCA:
                 * First cycle will be hard.
@@ -76,8 +76,8 @@
                     * testing
                 * Phase 2 (iteration)
                     * initial testing, measure
-                    * run to exaustion
-                * Phase 3 (readidness)
+                    * run to exhaustion
+                * Phase 3 (readiness)
                     * Ability to add resources etc
             * More can go wrong
                 * Keep in sync with devs
@@ -94,9 +94,9 @@
                             * Troubleshoot at OSI model level.
                             * Help people.
                             * Build out overview of the system
-                                * Even if it's ugly, horrible or rudimentry.
+                                * Even if it's ugly, horrible or rudimentary.
                                 * Do yourself a favor and work on data flows
-                            * Find the choke points: ELB< Nginx, App code,
+                            * Find the choke points: ELB, Nginx, App code,
                               App-aaS, mongo, db, etc)
                             * Take a Baseline measurement
                                 * Start with common benchmark
@@ -119,7 +119,7 @@
                                 * Complete rewrite removed legacy code
                             * Several discovered memory leaks
                             * Around 10k RPS.
-                    * MEasure early
+                    * Measure early
                     * Instrument early
                     * align incentives (use words that matter to your boss)
                     * Jump in, feet first, and iterate.

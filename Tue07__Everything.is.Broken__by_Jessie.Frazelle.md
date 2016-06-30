@@ -17,7 +17,7 @@
     * 1 with a happy lesson Github OSS monitoring story
 * Story about TLS & Zookeeper
     * no one cares, else it would be fixed by now
-    * Feature complete...
+    * TLS Feature complete...
     * patch made...
     * but to alpha build...
     * TLS + Zookeeper == pipe dream
@@ -30,7 +30,7 @@
     * poo piles, with a bow on it
     * Gems are magic... when they work.
     * STAH(p)
-    * "You don't download or improt a software dependency, you adopt it.
+    * "You don't download or import a software dependency, you adopt it.
       Like adopting pets, it's a responsibility for the life of your
       product." - @davecheney
     * Own your dependencies.  
@@ -39,6 +39,6 @@
 * Monitoring your OSS Project
     * If it's bad code, it still won't be merged.  Deal with it.
     * https://github.com/icecrime/vossibility-stack
-    * monitors a github project for contributer stuff.
+    * monitors a github project for contributor stuff.
     * Top dream killer: Closed without merging most patches written by
       other people

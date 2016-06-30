@@ -2,7 +2,7 @@
 
 ### Block Chains by Ryan
 * Money takes 3 days between banks
-* CC's hide this delay, but it's stil there.
+* CC's hide this delay, but it's still there.
 * Refunds still take 3 days...
     * unless you're poor
 * Why does it take so long?
@@ -19,12 +19,12 @@
 
 ### Data-driven DevOps by Stella
 @stella_udo
-* CAMS: Culture Automation Measurement Sharing
+* CAMS: Culture Automation Measurement Sharing ###
 * Measurements:
     * What should you measure?
     * DevOps Report 2016
     * High performing teams perform 200x faster
-    * Don't measure activites
+    * Don't measure activities
     * measure outputs/outcomes
     * Monthly Active Users
     * Might Matter Metrics:
@@ -42,13 +42,13 @@
     * relax and enjoy your journey
 
 ### Manifest Pareidolia by Dave
-* Taxonimy of monitoring tools (a monitoring of a taxonomy)
+* Taxonomy of monitoring tools (a monitoring of a taxonomy)
 * Drawing of iconic images into graphs.  
 * Beaker on a curve
 * Excite Bike climbing a spike
-* Silver surfer on a stack graph
+* Silver surfer on a stack graph wave
 
-### Dont believe the data : Data vs intuition by Aaron
+### Don't believe the data : Data vs intuition by Aaron
 * Processing Data and making a decision
 * 2.5 quintillion bytes of data per day.
 * Brains hold 3tb ... 1 millionth of data per day on net
@@ -66,13 +66,13 @@
 * I'm the tech recruiter
 * #stalker
 * OSS Life Lessons:
-    * Video of her singing to a pinata whale.
+    * Video of her singing to a piñata whale.
     * Taylor swift as though leader ???
         * Girl, guitar, and autotune.  
         * Start where you're comfortable.
     * Bring your friends.
     * Don't showboat.
-        * entire company doesn't rest on your shoulders.
+        * entire company doesn't rest on your shoulders. ###
     * Knowledge Share
     * Don't be afraid of Haters (get drunk on their jealousy)
     * Do you.
@@ -82,7 +82,7 @@
 * Monitoring the macro internet for network outages.  Cool stuff
 
 ### Exploring Site Reliability principles with games by justin Dugger
-* Reponsible for uptime
+* Responsible for uptime
 * Hanabi good game to model
 * P = Principle
 * P1: Provide actionable alerts
@@ -107,31 +107,31 @@
 * Protect users from each other.
 * track resource usage per team
     * teams can raise their own limits
-* system floats up new metrics.  And gen a regex which matches all of them.
+* system floats up new metrics.  And generates a regex which matches all of them.
 * (track things which are read, vs not read)
-* 3 clicks and you're blacklisted.
-* Big spike, low priority alert.  Bigger spike, oncall alert.
+* 3 clicks and your new metric is blacklisted.
+* Big spike, low priority alert.  Bigger spike, on-call alert.
 * Cut growth by 60%
 * Didn't get in the way of people doing their job.  Didn't stop honest players.
 
 ### Shmarallel, Shmostulate By Dan Slimmon
 @danslimmon
-* Euclid proed a bunch of stuff about geometry
+* Euclid proved a bunch of stuff about geometry
 * Or that's what he thought.
 * A postulate is something you know to be true.
 * 4 postulates gave 28 theorums, but not the 29th
 * 2000 years to fix the 5th postulate
 * Non-euclidian geometry solved 5th postulate. Euclidian is first 4.
 * Math isn't about picking real objects and studying them
-* You choose the definitions you WANT and study the results.
+* You choose the definitions you WANT and study the results. ###
 
 ### The benefits of a systems lens by Jason Hand
 @jasonhand
 * Viewing feedback from a "systems thinking" model
-* Reserch in bias
-* System: interacting or interdependent components forman complex 'whole'
-* Feedback: Givving  and receiving
-* Systems thinging:
+* Research in bias
+* System: interacting or interdependent components for a complex 'whole'
+* Feedback: Giving  and receiving
+* Systems thinking:
 * Correct the skew of any single perspective
 * 5 benefits:
     * Accuracy
@@ -160,7 +160,7 @@
       the rest of the day off.
         * tried as an experiment, works very well
         * Quotes:
-            * "Makes oncall almost bearable"
+            * "Makes on-call almost bearable"
             * "Allows for a clean break before your weekend"
             * "Friday morning sleep in allows for healthy weekend"
         * Scales with team size... cheaper as team grows
