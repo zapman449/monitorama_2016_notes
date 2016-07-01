@@ -2,6 +2,10 @@
 
 @nicolefv
 
+Livestream start of talk:
+
+https://www.youtube.com/watch?v=l-w2skD_56E&index=1&list=PLGJrMkJUF3M3Vi_vgDiyBpWsOP41XzJnM&t=110m30s
+
 Side Note: Big Panda offers a Monitoring-Scape.  Google for it for tool
 contenders on each aspect of monitoring
 

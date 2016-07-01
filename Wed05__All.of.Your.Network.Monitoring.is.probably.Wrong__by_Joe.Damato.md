@@ -4,6 +4,9 @@
 packagecloud.io
 @packagecloudio
 
+Talk link:
+https://www.youtube.com/watch?v=1SlljMU9V5k&index=3&list=PLGJrMkJUF3M3Vi_vgDiyBpWsOP41XzJnM&t=184m14s
+
 * http://blog.packagecloud.io slides
 * cognitive load
     * TOO MUCH STUFF to track.  Leads to high cognitive load
