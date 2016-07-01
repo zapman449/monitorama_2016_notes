@@ -29,6 +29,7 @@
     * Make the case
         * By-in is no joke.  If top leaders don't care, it won't happen
     * [HIERARCHY OF DevOps NEED](./Tue08__Metrics.are.for.Chumps__by_James.Fryman.jpg)
+        * Original source here: https://www.linkedin.com/pulse/devops-hierarchy-needs-simon-witheridge
     * Can't start until we understand the retention requirements
         * Falacy
     * We don't run a SaaS
