@@ -1,3 +1,3 @@
 My notes from Monitorama 2016.
 
-Each talk as it's own markdown in conference order.
+Each talk as its own markdown in conference order.
